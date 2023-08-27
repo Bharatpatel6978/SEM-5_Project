@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/favicon.png" />
+    <title>Y-NOT Restorent</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <nav class="navbar p-0" style="background: #80808075;">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: black;font-family: 'Shadows Into Light', cursive;"><h4>Y-NOT<br>FOODS.</h4></a>
+          </div>
+          <ul class="menus">
+            <li id="search" onclick="search()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" class="bi bi-search" viewBox="0 0 16 16" style="padding-top: 10px;">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              <div class="form-outline2">
+                <input  type="search" id="form2"class="form-control" placeholder="Type query" aria-label="Search"/>
+              </div>
+            </li>
+            <li><a href="index.html"  class="main_links" style="text-decoration: none;">Home</a></li>
+            <li  class="drop_down">
+              <a href=""  class="main_links" style="text-decoration: none;"><i class="ri-arrow-down-s-line" id="res_one"></i><i class="ri-arrow-up-s-line" id="res_two"></i>Menu</a>
+              <ul class="menu_option">
+                <li><a href="" style="text-decoration: none;width: 7.7rem;margin: 10px 10px;" class="main_links">one</a></li>
+                <li><a href="" style="text-decoration: none;width: 7.7rem;margin: 10px 10px;" class="main_links">two</a></li>
+                <li><a href="" style="text-decoration: none;width: 7.7rem;margin: 10px 10px;" class="main_links">three</a></li>
+              </ul>
+            </li>
+            <li><a href=""  class="main_links" style="text-decoration: none;">About Us</a></li>
+            <li><a href=""  class="main_links" style="text-decoration: none;">Contact Us</a></li>
+            <li><a href="login.html"  class="main_links" style="text-decoration: none;">Login</a></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" class="bi bi-cart3" viewBox="0 0 16 16" style="padding-top: 10px;">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg></li>
+          </ul>
+          <div class="toggle1">
+            <ul>
+              <div class="form-outline4">
+                <input  type="search" id="form2"class="form-control" placeholder="Type query" aria-label="Search"/>
+              </div>
+              <li><i class="three_line" class="ri-menu-line" onclick="threeline()"></i></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="dropdown_menu">
+        <li><a href="" style="text-decoration: none; color: black">Home</a></li>
+        <li class="drop_down_res"><a href="" style="text-decoration: none; color: black"> <i class="ri-arrow-left-s-line" id="res_one"></i><i class="ri-arrow-right-s-line" id="res_two"></i>Menu</a>
+          <ul class="menu_option_res">
+            <li><a href="" style="text-decoration: none;" class="main_links">one</a></li>
+            <li><a href="" style="text-decoration: none;" class="main_links">two</a></li>
+            <li><a href="" style="text-decoration: none;" class="main_links">three</a></li>
+          </ul>
+        </li>
+        <li><a href="" style="text-decoration: none; color: black">About Us</a></li>
+        <li><a href="" style="text-decoration: none; color: black">Contact Us</a></li>
+        <li><a href="" style="text-decoration: none; color: black">User</a></li>
+        <li><a href="" style="text-decoration: none; color: black">Cart</a></li>
+      </div>
+    </header>
+    <!-- header section end -->
+    <!-- image slider section start -->
+
+    <!-- image slider section end -->
+    <script src="app.js"></script>
+    <!-- <script src="bootstrap/js/bootstrap.bundle.min.js"></> -->
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+  </body>
+</html>
