@@ -6,6 +6,4 @@ function toggle_open(){
   toggle_menu.classList.toggle("open");
   open.classList.toggle("close")
   close.classList.toggle("open")
-//   document.querySelector(".three_line").style = "display:none;";
-//   document.querySelector(".close_line").style = "display:block;";
 }
