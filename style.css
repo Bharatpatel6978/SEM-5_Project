@@ -232,6 +232,12 @@ body{
   top: 0;
   left: -80px;
 } */
+.animate__fadeInDown{
+  --animate-duration: 4s;
+}
+.animate__fadeInUp{
+  --animate-duration: 4s;
+}
 @media (max-width:991px) {
   .nav_menu{
     display: none;
