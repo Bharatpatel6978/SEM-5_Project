@@ -412,4 +412,64 @@ body{
   font-style: italic;
 }
 /* reservation section end */
+/* What Our Visitors Say start */
+.testimonials::before{
+  content: '';
+    height: 4px;
+    border-radius: 2px;
+    width: 48px;
+    position: absolute;
+    background: red;
+    left: 31.2rem;
+    top: -10px;
+}
+.review_section h3{
+  color: white  ;
+  padding-left: 22px;
+    padding-top: 16px;
+    font-family: 'Bodoni Moda', serif;
+}
+.review_section h6{
+  font-weight: bolder;
+  color: white;
+}
+.review_section p{
+  color: #ffffffa1;
+  width: 14.5rem;
+    font-size: 19px;
+    margin-left: 23px;
+    margin-top: 29px;
+    border-bottom: dotted 2px #ffffff42;
+    padding-bottom: 17px;
+}
+.review_first,.review_second,.review_third{
+  border: dotted 2px rgba(26,47,52,0.8);
+    width: 21rem;
+    border-radius: 12px;
+    height: 28rem;
+}
+.review_first div,.review_second div,.review_third div{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+    padding-left: 22px;
+}
+.review_section img{
+  border-radius: 78px;
+    height: 3rem;
+    width: 3rem;
+}
+.review_section{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+.review{
+  margin-top: 60px;
+  border-bottom: 5px dotted #ffffff75;
+  padding-bottom: 50px;
+  width: 66rem;
+  margin-left: 25px;
+}
+/* What Our Visitors Say end */
 /* fe_section end */
