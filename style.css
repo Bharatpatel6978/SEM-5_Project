@@ -84,7 +84,7 @@ body{
 }
 .item{
   margin-top: 45px;
-    background: red;
+    /* background: red; */
     padding: 11px 14px;
 }
 .nav_menu

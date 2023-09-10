@@ -18,7 +18,7 @@ const ob = new IntersectionObserver((enter,exit)=>{
   }
   else{
     const dispval = document.querySelectorAll(".numbers");
-    let interval = 4000;
+    let interval = 1000;
     dispval.forEach((dispval)=>{
       let start= 0;
       let end = parseInt(dispval.getAttribute("data"));
