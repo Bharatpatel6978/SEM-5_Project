@@ -82,6 +82,11 @@ body{
     background: #bb1e23;
     cursor: pointer;
 }
+.item{
+  margin-top: 45px;
+    background: red;
+    padding: 11px 14px;
+}
 .nav_menu
 {
   display: block;
@@ -206,6 +211,17 @@ body{
     gap: 2rem;
     justify-content: center;
 }
+.number{
+  display: flex;
+  justify-content: center;
+}
+.counter_main{
+  display: flex;
+    justify-content: space-around;
+}
+.counter_main h3,h5{
+  color: white;
+}
 .toggle_main_menu a:hover {
   text-decoration: none;
   color: #ffffffb5;
@@ -302,19 +318,98 @@ body{
     top: 21px;
   }
 }
-/* @media(max-width:575px) {
-  .res_img {
-    display: block;
-  }
-  .main_logo{
-    display: none;
-  }
-  .logo {
-    height: 3.6rem;
-    width: 6rem;
-    position: relative;
-    left: 136px;
-    top: 0px;
-    margin-right: 292px;
+/* fe_section start */
+/* whay people chose start */
+.fe_section{
+  background-color: #041314;
+  box-shadow: 0px 0px 20px -5px white;
+  border-radius: 16px;
+  margin-top: 50px;
 }
-} */
+.wh_three{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 43px;
+  border-bottom: 5px dotted #ffffff75;
+  width: 66rem;
+  margin-left: 31px;
+  padding-bottom: 44px;
+}
+.wh_three h5{
+  padding-top: 30px;
+  font-family: 'Noto Sans Mahajani', sans-serif;
+}
+/* whay people chose end */
+/* reservation section start  */
+.reservation{
+  display: flex;
+}
+.reservation img{
+  border-radius: 9px 0px 0px 9px;
+    width: 42.3rem;
+    height: 20rem;
+    margin-left: 18px;
+}
+.time_section{
+  background-color: #142629;
+  width: 42.3rem;
+    height: 20rem;
+    border-radius: 0px 9px 9px 0px;
+    color: rgba(255, 255, 255, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    text-align: center;
+}
+.res_sp{
+  color: red;
+}
+.res-part{
+  position: absolute;
+    top: 60px;
+    left: 75px;
+    color: #ffffffa1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.res-part h1{
+  color: #ffffffd9;
+}
+.res-part a{
+  text-decoration: none;
+  color: #ffffffa1;
+}
+.res_text::before {
+  content: "";
+    height: 4px;
+    width: 30px;
+    background: red;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    border-radius: 5px;
+}
+.btn_res{
+  border: none;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 29px;
+    font-weight: bolder;
+    color: white;
+    background: #bb1e23;
+}
+.btn_res_div{
+  display: flex;
+  align-items: baseline;
+    gap: 28px;
+}
+.work_hours{
+  font-family: 'Cormorant', serif;
+  font-style: italic;
+}
+/* reservation section end */
+/* fe_section end */
